@@ -1,0 +1,6 @@
+graphviz
+libgraphviz-dev
+pkg-config
+firebase-admin
+google-cloud-firestore
+imgurpython
