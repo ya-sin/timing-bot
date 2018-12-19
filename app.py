@@ -244,7 +244,5 @@ def show_fsm():
 
 if __name__ == "__main__":
     # run(host="0.0.0.0", port=PORT, debug=True, reloader=True)
-    if os.environ.get('APP_LOCATION') == 'heroku':
-        app.run(host="0.0.0.0", port=PORT, debug=True, reloader=True)
-    else:
-        app.run(host='localhost', port=3000, debug=True, reloader=True)
+
+    app.run(host="0.0.0.0", port=PORT, debug=True, reloader=True)
