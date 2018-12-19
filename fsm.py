@@ -330,10 +330,4 @@ class TocMachine(GraphMachine):
         msg = "This is the post will be show!!\nif have any problem, feel free to contact us!"
         response1 = send_image_url(sender_id,imgurl)
         response2 = send_postback(sender_id, msg)
-        # print("I'm entering makepost")
-        # print('CURRENT STATE: ' + machine.state)
-        # call make_post()
-        # upload the image to imgur
-        # send the image back to client
-        # print("this is the post will be show!!\nif have any problem, feel free to contact us!")
         self.go_back()
