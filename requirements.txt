@@ -30,7 +30,7 @@ pygraphviz==1.5
 python-dateutil==2.7.3
 pytz==2018.7
 requests==2.20.1
-rsa==4.0
+rsa==4.1
 singledispatch==3.4.0.3
 six==1.11.0
 transitions==0.6.9
