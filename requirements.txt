@@ -34,7 +34,7 @@ rsa==4.0
 singledispatch==3.4.0.3
 six==1.11.0
 transitions==0.6.9
-urllib3==1.24.1
+urllib3==1.26.5
 webencodings==0.5.1
 Werkzeug==0.14.1
 XlsxWriter==0.7.1
